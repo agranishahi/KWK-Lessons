@@ -36,11 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38061D03269F78DA00D461F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3875CC77269F62C100DE6B14 /* MiniProject1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniProject1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3875CC7A269F62C100DE6B14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3875CC7C269F62C100DE6B14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3875CC7E269F62C100DE6B14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3875CC81269F62C100DE6B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3875CC81269F62C100DE6B14 /* Base */ = {isa = PBXFileReference; explicitFileType = image.png; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3875CC84269F62C100DE6B14 /* MiniProject1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiniProject1.xcdatamodel; sourceTree = "<group>"; };
 		3875CC86269F62C300DE6B14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3875CC89269F62C300DE6B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -304,6 +305,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3875CC81269F62C100DE6B14 /* Base */,
+				38061D03269F78DA00D461F3 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
