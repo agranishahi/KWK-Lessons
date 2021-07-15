@@ -9,13 +9,28 @@ import UIKit
 
 class thirdViewController: UIViewController {
 
+    @IBOutlet weak var alerter3: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func yesClick(_ sender: UIButton) {
+        let alertYes = "🍍🍕"
+        if alertYes == "🍍🍕"{
+            alerter3.text = alertYes
+        }
+    }
+    
+    @IBAction func noClick(_ sender: UIButton) {
+        let alertNo = "Okay..."
+        if alertNo == "Okay..."{
+            alerter3.text = alertNo
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

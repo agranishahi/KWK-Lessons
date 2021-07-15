@@ -17,13 +17,28 @@ class firstViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func sodaClick(_ sender: UIButton) {
-    let alertSoda = "Yum!🥤"
+        let alertSoda = "Yum!🥤"
         if alertSoda == "Yum!🥤"{
             alerter1.text = alertSoda
         }
     }
     
-
+    @IBAction func coffeeClick(_ sender: UIButton) {
+        let alertCoffee = "Yess!☕️"
+        if alertCoffee == "Yess!☕️"{
+            alerter1.text = alertCoffee
+    }
+    }
+    
+    
+    @IBAction func waterClick(_ sender: UIButton) {
+        let alertWater = "Nothing beats water! 💧"
+        if alertWater == "Nothing beats water! 💧"{
+            alerter1.text = alertWater
+    }
+    }
+    
+    
     /*
     // MARK: - Navigation
 
